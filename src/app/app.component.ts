@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app works!';
+  title = 'I FERIA NACIONAL DE SOCIEDADES CIENTÍFICAS DE ESTUDIANTES DEL SISTEMA DE LA UNIVERSIDAD BOLIVIANA';
 }
