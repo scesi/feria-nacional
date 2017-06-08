@@ -28,6 +28,15 @@
   /*width: 30%; */
   max-width: 380px; 
 }
+.dicyt-logo {
+  margin-top: 1%;
+  margin-bottom: 5% ;
+  margin-left: 1% ;
+  margin-right: 1% ; 
+  /*height: auto; */
+  /*width: 30%; */
+  max-width: 170px; 
+}
 
 .center {
    text-align: center;
