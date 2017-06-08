@@ -1,3 +1,23 @@
 <p>
   map works!
 </p>
+
+<!-- this creates a google map on the page with the given lat/lng from -->
+<!-- the component as the initial center of the map: -->
+<sebm-google-map 
+[latitude]="lat" 
+[longitude]="lng"
+[zoom]="zoom"
+[zoomControl]="true"
+[scrollwheel] = "false"
+>
+  <sebm-google-map-marker 
+  *ngFor="let m of markers; let i = index"
+  [latitude]="m.lat"
+  [longitude]="m.lng"
+  [label]="m.label"
+  >
+  </sebm-google-map-marker>
+</sebm-google-map>
+
+<h6> Leyenda:  A - Puerta Principal, F - Feria, P - Parqueo</h6>
