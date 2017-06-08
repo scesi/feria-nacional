@@ -19,6 +19,16 @@
   max-width: 171px; 
 }
 
+.umss-logo {
+  margin-top: 1%;
+  margin-bottom: 3% ;
+  margin-left: 1% ;
+  margin-right: 1% ; 
+  /*height: auto; */
+  /*width: 30%; */
+  max-width: 380px; 
+}
+
 .center {
    text-align: center;
 }
