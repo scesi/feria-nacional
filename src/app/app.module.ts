@@ -15,6 +15,8 @@ import { OrganizesComponent } from './organizes/organizes.component';
 import { AuspicesComponent } from './auspices/auspices.component';
 import { ContactComponent } from './contact/contact.component';
 
+import { AgmCoreModule } from 'angular2-google-maps/core';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -31,7 +33,12 @@ import { ContactComponent } from './contact/contact.component';
     BrowserModule,
     FormsModule,
     HttpModule,
-    AppRoutingModule
+    AppRoutingModule,
+
+    AgmCoreModule.forRoot({
+      apiKey: 'AIzaSyCfymJOdkazl6fqIcBnGAdmU9aDxtHIOT8'
+    })
+
   ],
   providers: [],
   bootstrap: [AppComponent]
