@@ -1,14 +1,14 @@
-.campus {
-  /*width:100%;  
-  height:cover;  */
 
-    background-repeat:no-repeat;
-    -webkit-background-size:cover;
-    -moz-background-size:cover;
-    -o-background-size:cover;
-    background-size:cover;
-    background-position:center;
+
+
+.paseo {
+  /*height: 100%;  */
   
+  /*altura*/
+  /*max-height: 171px;*/
+  
+  width: 100%; 
+  /*max-width: 1200px; */
 }
 /*
 .background {
