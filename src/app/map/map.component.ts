@@ -26,6 +26,11 @@ export class MapComponent implements OnInit {
 		  lat: -17.3926495,
 		  lng: -66.1468436,
 		  label: 'P',
+	  },
+	  {//-17.3929509,-66.1474296 Baño 
+		  lat: -17.3929509,
+		  lng: -66.1474296,
+		  label: 'B',
 	  }
   ];
 

@@ -16,6 +16,7 @@ import { AuspicesComponent } from './auspices/auspices.component';
 import { ContactComponent } from './contact/contact.component';
 
 import { AgmCoreModule } from 'angular2-google-maps/core';
+import { SpotComponent } from './spot/spot.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { AgmCoreModule } from 'angular2-google-maps/core';
     MapComponent,
     OrganizesComponent,
     AuspicesComponent,
-    ContactComponent
+    ContactComponent,
+    SpotComponent
   ],
   imports: [
     BrowserModule,
