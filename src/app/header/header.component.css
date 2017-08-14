@@ -7,3 +7,18 @@
     margin-left: 15% ;
     margin-right: 1% ; 
 }
+
+
+.logo {
+    display: inline-block;
+    height: 100%;
+}
+
+.logo>img {
+    vertical-align: middle
+}
+
+.logo-in-nav{
+  margin-left: 16% ;
+  margin-right: 16% ; 
+}

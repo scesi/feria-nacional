@@ -7,6 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
+  title = 'AUSCESS';
+
+  materializeParams = [{
+    menuWidth: 250,
+    edge: 'left',
+    closeOnClick: true,
+    draggable: true
+  }]
+
   constructor() { }
 
   ngOnInit() {
