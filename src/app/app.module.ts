@@ -1,3 +1,5 @@
+import { MaterializeModule } from "angular2-materialize";
+
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
@@ -17,6 +19,7 @@ import { ContactComponent } from './contact/contact.component';
 
 import { AgmCoreModule } from 'angular2-google-maps/core';
 import { SpotComponent } from './spot/spot.component';
+
 
 @NgModule({
   declarations: [
@@ -39,7 +42,9 @@ import { SpotComponent } from './spot/spot.component';
 
     AgmCoreModule.forRoot({
       apiKey: 'AIzaSyCfymJOdkazl6fqIcBnGAdmU9aDxtHIOT8'
-    })
+    }),
+
+    MaterializeModule
 
   ],
   providers: [],
