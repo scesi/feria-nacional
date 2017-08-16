@@ -19,6 +19,9 @@ import { ContactComponent } from './contact/contact.component';
 
 import { AgmCoreModule } from 'angular2-google-maps/core';
 import { SpotComponent } from './spot/spot.component';
+import { AreasComponent } from './areas/areas.component';
+import { InscriptionComponent } from './inscription/inscription.component';
+import { MainComponent } from './main/main.component';
 
 
 @NgModule({
@@ -32,7 +35,10 @@ import { SpotComponent } from './spot/spot.component';
     OrganizesComponent,
     AuspicesComponent,
     ContactComponent,
-    SpotComponent
+    SpotComponent,
+    AreasComponent,
+    InscriptionComponent,
+    MainComponent
   ],
   imports: [
     BrowserModule,
