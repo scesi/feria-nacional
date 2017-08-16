@@ -1,18 +1,35 @@
 <header>
+
+    <ul id="dropdown1" class="dropdown-content">
+        <li><a href="#!">one</a></li>
+        <li><a href="#!">two</a></li>
+        <li class="divider"></li>
+        <li><a href="#!">three</a></li>
+    </ul>
+
+    <ul id="dropdown2" class="dropdown-content">
+        <li><a href="#!">1</a></li>
+        <li><a href="#!">2</a></li>
+        <li class="divider"></li>
+        <li><a href="#!">3</a></li>
+    </ul>
+
     <div class="navbar">
         <nav class="indigo">
             <div class="nav-wrapper">
-                    <!--<a href="/" class="brand-logo">{{title}}</a>-->
-                    <a routerLink="/" class="brand-logo"><img src="assets/background/logo.png" class="center-in-bar" /></a>
-                    <a href="#" data-activates="nav-mobile" class="button-collapse" materialize="sideNav"
-                    [materializeParams]="materializeParams"><i class="material-icons">menu</i>
-                    </a>
+                <!--<a href="/" class="brand-logo">{{title}}</a>-->
+                <a routerLink="/" class="brand-logo"><img src="assets/background/logo.png" class="center-in-bar" /></a>
+                <a href="#" data-activates="nav-mobile" class="button-collapse" materialize="sideNav"
+                [materializeParams]="materializeParams"><i class="material-icons">menu</i>
+                </a>
                 <ul class="right hide-on-med-and-down">
                     <li><a routerLink="/areas">Áreas</a></li>
-                    <!--<li><a routerLink="/inscripcion">Inscríbete</a></li>-->
+                    <!--<li><a class="dropdown-button"  data-activates="dropdown1"><i class="material-icons">more_vert</i></a></li>-->
+                    <li><a href="#scroll-link">Links</a></li>
+
                     <li><a class="blue light-blue btn" href="http://2017-ferianacional-auscess.eventbrite.com.ar" target="_BLANK">Inscríbete</a></li>
                 </ul>
-                <ul id="nav-mobile" class="side-nav">
+                <ul id="nav-mobile" class="side-nav" >
                     <ul><li><a class="logo logo-in-nav" href="#"><img src="assets/background/logo.png"></a></li></ul>
                     <li class="divider"></li>
                     <!--<li><a routerLink="/inscripcion">Inscríbete</a></li>-->
